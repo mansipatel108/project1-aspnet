@@ -23,11 +23,23 @@
         <asp:ContentPlaceHolder ID="MainContent" runat="server">    
         </asp:ContentPlaceHolder>
     </div>
-       
+      
     </form>
     <!-- JavaScript -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
+    <br />  <br />  <br />
+    <div class="navbar">
+        <ul class="blog-nav">
+            <div class="navbar-text pull-left">
+                 <a href="Default.aspx" class=""><i class="fa fa-home fa-lg"></i> Back to Home</a>
+            </div>
+            <div class="navbar-text pull-right">
+                <a href="https://github.com/mansipatel108"> Develop by Mansi Patel & Shweta Chavda
+                    <i class="fa fa-github fa-2x"></i></a>
+                </div>
+        </ul>
+    </div>
 </body>
 </html>
