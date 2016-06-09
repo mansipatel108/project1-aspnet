@@ -16,6 +16,7 @@
       <ul class="nav navbar-nav navbar-right">
                 <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
                 <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-info-circle"></i> About Us</a></li>
+                 <li id="game" runat="server"><a href="Game.aspx"><i class="fa fa-puzzle-piece"></i> Game Tracker</a></li>
                 <li id="login" runat="server"><a href="Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
                 <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
             </ul>

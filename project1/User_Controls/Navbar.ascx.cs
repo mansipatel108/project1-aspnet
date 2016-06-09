@@ -27,6 +27,9 @@ namespace project1
                 case "About":
                     about.Attributes.Add("class", "active");
                     break;
+                case "Game Tracker":
+                    game.Attributes.Add("class", "active");
+                    break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;

@@ -1,65 +1,64 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="project1.Default" %>
+﻿<%@ Page Title="Game Tracker" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Game.aspx.cs" Inherits="project1.Game" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-     <section id="services" class="services">
+        <section id="services" class="services">
         <div class="services">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h1> Games...</h1>
+                    <h1> Tracker...</h1>
                     <div class="row">
 
 <!-- Tracked games font-awesome and paragraph   -->   
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="Assets/Images/baseball.gif" width="200" height="200" class="img-circle"/>
+                                    <img src="Assets/Images/baseball1.jpg" width="200" height="200" class="img-thumbnail" />
                                   </span>
                                  <h4>
                                     <strong>BaseBall</strong>
                                 </h4>
-                                <p id="TeamName"> Toronto Blue Jays VS <br /> Boston Red Sox</p>
-                               <p id="Score"> Toronto Blue Jays: 5 <br /> Boston Red Sox: 3</p>
-                            </div>
-                        </div>
-                        
+                                <div>
+                                  <a class="btn btn-info btn-group-lg" id="BaseBallButton" href="Login.aspx"><i class="fa fa-hand-pointer-o"></i> View</a>
+                                </div>
+                               </div>
+                        </div>                    
                          <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="Assets/Images/basketball.gif"  width="200" height="200" class="img-circle" />
+                                    <img src="Assets/Images/basket.jpg" width="200" height="200" class="img-thumbnail" />                                        
                                   </span>
                                  <h4>
                                     <strong>BasketBall </strong>
                                 </h4>
-                                  <p id="TeamName1"> Chicago Bulls VS <br /> Los Angeles Clippers</p>
-                               <p id="Score1"> Chicago Bulls: 30.1 <br /> Los Angeles Clippers: 7.4</p>
-                               
-                            </div>
+                                <div>
+                                    <a class="btn btn-info btn-group-lg" id="BasketBallButton" href="Login.aspx"><i class="fa fa-hand-pointer-o"></i> View</a>
+                                </div>
+                                 </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                               <span class="image">
-                                  <img src="Assets/Images/hockey.gif" width="200" height="200" class="img-circle" />     
+                                  <img src="Assets/Images/hockey1.jpg" width="200" height="200" class="img-thumbnail" />     
                                   </span>
                                 <h4>
                                     <strong>Hockey</strong>
                                 </h4>
-                                <p id="TeamName2"> Toronto Maple Leafs VS <br /> Boston Bruins</p>
-                               <p id="Score2"> Toronto Maple Leafs: 3 <br /> Boston Bruins: 1</p>
-                               
-                            </div>
+                                <div>
+                                   <a class="btn btn-info btn-group-lg" id="HockeyButton" href="Login.aspx"><i class="fa fa-hand-pointer-o"></i> View</a>
+                                </div>
+                              </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                             <span class="image">
-                                <img src="Assets/Images/soccer.gif" width="200" height="200" class="img-circle" />
+                                <img src="Assets/Images/soccer1.jpg" width="200" height="200" class="img-thumbnail" />
                                   
                                   </span>
                                 <h4>
                                     <strong>Soccer</strong>
                                 </h4>
-                                <p id="TeamName3"> FC Barcelona VS <br /> Real Madrid C.F.</p>
-                               <p id="Score3"> FC Barcelona: 5 <br /> Real Madrid C.F.: 4</p>
-                               
-                               
+                                <div>
+                                   <a class="btn btn-info btn-group-lg" id=SoccerButton" href="Login.aspx"><i class="fa fa-hand-pointer-o"></i> View</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -71,4 +70,6 @@
         </div>
         <!-- /.container -->
     </section>
+
+    <br /><br /><br /><br /><br /><br />
 </asp:Content>

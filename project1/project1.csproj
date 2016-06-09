@@ -63,6 +63,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\Images\baseball.gif" />
+    <Content Include="Assets\Images\baseball1.jpg" />
+    <Content Include="Assets\Images\basket.jpg" />
+    <Content Include="Assets\Images\basketball.gif" />
+    <Content Include="Assets\Images\golf.gif" />
+    <Content Include="Assets\Images\hockey.gif" />
+    <Content Include="Assets\Images\hockey1.jpg" />
+    <Content Include="Assets\Images\soccer.gif" />
+    <Content Include="Assets\Images\soccer1.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -74,6 +83,7 @@
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Game.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="User_Controls\Navbar.ascx" />
@@ -121,6 +131,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Game.aspx.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Game.aspx.designer.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,7 +179,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Images\" />
     <Folder Include="css\" />
   </ItemGroup>
   <PropertyGroup>

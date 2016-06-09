@@ -7,7 +7,7 @@
            <h1>Please Login</h1>
            <form method="post">
                 <fieldset class="form-group">
-                    <label id="Username">Username:</label>
+                    <label id="Username">UserName:</label>
                     <input type="text" class="form-control" name="username" required autofocus/>
                  </fieldset>
                  <fieldset class="form-group">
@@ -25,4 +25,5 @@
          </div> 
       </div>
     </main>
+    <br /><br /><br /><br /><br /><br />
 </asp:Content>
