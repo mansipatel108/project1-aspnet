@@ -1,13 +1,20 @@
 ﻿<%@ Page Title="Game Tracker" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Game.aspx.cs" Inherits="project1.Game" %>
+
+<%--
+File Name: Game.aspx
+Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
+Website Name: http://aspnet-project1.azurewebsites.net/Default.aspx
+Description: From this page user can create a tracker for their favourite game's team
+ @date: June 8, 2016
+ @version: 0.0.1  --%>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
         <section id="services" class="services">
         <div class="services">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h1> Tracker...</h1>
-                    <div class="row">
-
-<!-- Tracked games font-awesome and paragraph   -->   
+                    <div class="row"> 
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">

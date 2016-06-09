@@ -1,9 +1,17 @@
 ﻿<%@ Page Title="Register Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="project1.Register" %>
+
+<%--
+File Name: Register.aspx
+Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
+Website Name: http://aspnet-project1.azurewebsites.net/Default.aspx
+Description: In order to get log in User must get registered on this page.
+ @date: June 8, 2016
+ @version: 0.0.1  --%>
+
+
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <main class="container">
-	<!-- Display flash messages  -->
-	
-		<div class="row">
+        <div class="row">
             <div class="col-md-offset-4 col-md-4">
                 <h1>User Registration</h1>
                 <form method="post">
@@ -24,13 +32,13 @@
                         <input name="displayName" type="text" class="form-control" required />
                     </fieldset>
                     <fieldset class="form-group text-right">
-                        <input type="submit" class="btn btn-success" value="Submit"/>
+                        <input type="submit" class="btn btn-success" value="Submit" />
                         <a href="/">
-                            <input type="button" class="btn btn-warning" value="Cancel"/>
+                            <input type="button" class="btn btn-warning" value="Cancel" />
                         </a>
                     </fieldset>
                 </form>
-            </div> 
+            </div>
         </div>
-	</main>
+    </main>
 </asp:Content>

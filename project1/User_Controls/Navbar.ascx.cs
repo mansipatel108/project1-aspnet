@@ -5,6 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+/**
+ * @author: Mansi Patel & Shweta Chavda
+ * @date: June 8, 2016
+ * @version: 0.0.1 - added SetActivePage method
+ */
+
+
 namespace project1
 {
     public partial class Navbar : System.Web.UI.UserControl
@@ -13,6 +20,15 @@ namespace project1
         {
             SetActivePage();
         }
+
+        /**
+         * This method adds a css class of "active" to list items
+         * relating to the current page
+         * 
+         * @private
+         * @method SetActivePage
+         * @return {void}
+         */
 
         private void SetActivePage()
         {
