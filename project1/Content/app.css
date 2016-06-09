@@ -51,7 +51,7 @@ h1{
     font-weight:800;
 }
 label.control-label{
-    color:orangered;
+    color: #ffd800;
     font-size:18px;
    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 }
@@ -79,19 +79,19 @@ div.navbar-text.pull-left a {
 }
  
 label#Username, label#Password, label{
-color:orangered;
+color: #ffd800;
     font-size:18px;
    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 }
  a#Register.text{
-color:orangered;
+color: #ffd800;
     font-size:14px;
    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 }
 
  h4 strong{
   font-family: Georgia, 'Times New Roman', Times, serif;
- color:  #DCF600;
+ color:  #ffd800;
  font-size: 25px;
  }
 
@@ -101,7 +101,18 @@ color:orangered;
      font-family: Forte;
  }
  p#Score,p#Score1,p#Score2,p#Score3{
-     color:    #CA278C;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+     color:  #ff006e;
+     font-family: cursive;
      font-size: 16.5px;
+ }
+ h4{
+    font-family:  Forte;
+ color:  #ffd800;
+ font-size: 25px;
+ }
+ p#what, p#who{
+     font-weight:200;
+     color: #ff006e;
+     font-size: 20px;
+     font-family: cursive  ;
  }

@@ -72,6 +72,8 @@
     <Content Include="Assets\Images\hockey1.jpg" />
     <Content Include="Assets\Images\soccer.gif" />
     <Content Include="Assets\Images\soccer1.jpg" />
+    <Content Include="Assets\Images\what.jpg" />
+    <Content Include="Assets\Images\who1.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />
