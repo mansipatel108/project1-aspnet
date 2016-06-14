@@ -10,35 +10,35 @@ Description: In order to get log in User must get registered on this page.
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <main class="container">
+<div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-4">
-                <h1>User Registration</h1>
-                <form method="post">
-                    <fieldset class="form-group">
-                        <label for="email">Email: *</label>
-                        <input name="email" type="email" class="form-control" required autofocus />
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <label for="username" id="Username">Username: *</label>
-                        <input name="username" type="text" class="form-control" required />
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <label for="password" id="Password">Password: *</label>
-                        <input name="password" type="password" class="form-control" required />
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <label for="displayName" id="DisplayName">Display Name: *</label>
-                        <input name="displayName" type="text" class="form-control" required />
-                    </fieldset>
-                    <fieldset class="form-group text-right">
-                        <input type="submit" class="btn btn-success" value="Submit" />
-                        <a href="/">
-                            <input type="button" class="btn btn-warning" value="Cancel" />
-                        </a>
-                    </fieldset>
-                </form>
+            <div class="col-md-offset-3 col-md-6">
+                <h1>Registration</h1>
+                <h5>All Fields are Required</h5>
+                <br />
+                <div class="form-group">
+                    <label class="control-label" for="EmailTextBox">Email: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="EmailTextBox" placeholder="Email" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="UserNameTextBox">UserName: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="UserNameTextBox" placeholder="UserName" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="PasswordTextBox">Password: </label>
+                    <asp:TextBox runat="server" TextMode="Password" CssClass="form-control" ID="PasswordTextBox" placeholder="Password" required="true"></asp:TextBox>
+                    
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="DisplayNameTextBox">DisplayName: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="DisplayNameTextBox" placeholder="DisplayName" required="true"></asp:TextBox>
+                </div>
+                <div class="text-right">
+                    <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" runat="server" 
+                        UseSubmitBehavior="false" CausesValidation="false" OnClick="CancelButton_Click" />
+                    <asp:Button Text="Save" ID="SaveButton" CssClass="btn btn-primary btn-lg" runat="server" OnClick="SaveButton_Click" />
+                </div>
             </div>
         </div>
-    </main>
+    </div>
 </asp:Content>

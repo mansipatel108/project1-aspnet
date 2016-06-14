@@ -10,30 +10,28 @@ Description: To create a tracker user must be Logged in on this page.
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <main class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-4">
-                <h1>Please Login</h1>
-                <form method="post">
-                    <fieldset class="form-group">
-                        <label id="Username">UserName:</label>
-                        <input type="text" class="form-control" name="username" required autofocus />
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <label id="Password">Password:</label>
-                        <input type="password" class="form-control" name="password" required />
-                        <a href="Register.aspx" class="text" id="Register">OR Register</a>
-                    </fieldset>
-                    <fieldset class="form-group text-right">
-                        <input type="submit" class="btn btn-success" value="Log In" />
-                        <a href="Default.aspx">
-                            <input type="button" class="btn btn-warning" value="Cancel" />
-                        </a>
-                    </fieldset>
-                </form>
+            <div class="col-md-offset-3 col-md-6">
+                <h1>Login</h1>
+                <br />
+                <div class="form-group">
+                    <label class="control-label" for="UserNameTextBox">UserName: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="UserNameTextBox" placeholder="UserName" required="true"></asp:TextBox>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="PasswordTextBox">Password: </label>
+                    <asp:TextBox runat="server" TextMode="Password" CssClass="form-control" ID="PasswordTextBox" placeholder="Password" required="true"></asp:TextBox>
+                    <a href="Register.aspx" class="text" id="Register">OR Register</a>
+                </div>
+                <div class="text-right">
+                    <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" runat="server" 
+                        UseSubmitBehavior="false" CausesValidation="false"  OnClick="CancelButton_Click"/>
+                    <asp:Button Text="Login" ID="SaveButton" CssClass="btn btn-primary btn-lg" runat="server" OnClick="SaveButton_Click" />
+                </div>
             </div>
         </div>
-    </main>
+    </div>
     <br />
     <br />
     <br />
