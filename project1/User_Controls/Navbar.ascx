@@ -28,6 +28,7 @@ Description:  This page controls the Navbar for the website
                  <li id="game" runat="server"><a href="Game.aspx"><i class="fa fa-puzzle-piece"></i> Game Tracker</a></li>
                 <li id="login" runat="server"><a href="Login.aspx"><i class="fa fa-sign-in fa-lg"></i> Login</a></li>
                 <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact</a></li>
+                
             </ul>
         </div>
         <!-- /.navbar-collapse -->

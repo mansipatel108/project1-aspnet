@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddGame.aspx" />
     <Content Include="Assets\Images\baseball.gif" />
     <Content Include="Assets\Images\baseball1.jpg" />
     <Content Include="Assets\Images\basket.jpg" />
@@ -104,6 +105,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Game.aspx" />
+    <Content Include="GameDetails.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Model\GameModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -156,6 +158,13 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AddGame.aspx.cs">
+      <DependentUpon>AddGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGame.aspx.designer.cs">
+      <DependentUpon>AddGame.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,6 +185,13 @@
     </Compile>
     <Compile Include="Game.aspx.designer.cs">
       <DependentUpon>Game.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameDetails.aspx.cs">
+      <DependentUpon>GameDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameDetails.aspx.designer.cs">
+      <DependentUpon>GameDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
